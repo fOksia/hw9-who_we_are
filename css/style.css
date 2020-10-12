@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+a, button {
+  transition: all .3s ease-in-out;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.who_we_are {
+  font-size: 16px;
+  margin: 85px 0;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 8.95px;
+  line-height: normal;
+}
+
+hr {
+  width: 45px;
+  height: 4px;
+  background-color: #dddbdb;
+  margin-top: 40px;
+  border: none;
+}
+
+p {
+  max-width: 570px;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.human {
+  min-height: 268px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.human1 {
+  background: url('../img/AlexCutter.jpeg') center center/cover no-repeat;
+}
+.human2 {
+  background: url('../img/ElenaSimpson.jpeg') center center/cover no-repeat;
+}
+.human3 {
+  background: url('../img/LillyAllen.jpeg') center center/cover no-repeat;
+}
+.human4 {
+  background: url('../img/AlexCutter.jpeg') center center/cover no-repeat;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 60px;
+}
+
+ul li {
+  width: 25%;
+  margin: 0 15px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 5px;
+}
+
+li:hover .human,
+.human:active,
+.human:focus {
+  background: #00aed9;
+  transition: all .5s ease-in-out;
+}
+
+li:hover .menu {
+  visibility: visible;
+}
+
+.menu:hover a:hover {
+  transform: scale(1.4);
+  color: #000000;
+}
+
+
+.icon {
+  display: flex;
+  width: 42px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.3)
+}
+
+.icon i {
+  margin: auto;
+}
+
+.human__name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.human__descr {
+  font-size: 14px;
+  font-weight: 300;
+}
+
