@@ -30,14 +30,18 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 8.95px;
   line-height: normal;
+  position: relative;
 }
 
-hr {
+h1::after {
+  content: '';
   width: 45px;
   height: 4px;
   background-color: #dddbdb;
-  margin-top: 40px;
-  border: none;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 p {
